@@ -6,109 +6,93 @@
     <title>Welcome to My Course Website</title>
     <style>
         body {
-            font-family: Calibri, Arial, sans-serif;
+            font-family: 'Georgia', serif;
             margin: 0;
             padding: 0;
-            background: linear-gradient(135deg, #f0f0f0, #ffffff);
-            height: 100vh;
+            background-color: #f5f5f5;
             display: flex;
             justify-content: center;
             align-items: center;
-            color: black;
+            min-height: 100vh;
+            color: #333;
         }
         .content {
             max-width: 800px;
             margin: auto;
-            text-align: center;
-            background: rgba(255, 255, 255, 0.9);
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-            animation: fadeIn 1s ease-out;
+            text-align: left;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
         }
         h2 {
-            font-size: 2.5em;
+            font-size: 2.2em;
             margin-bottom: 20px;
-            font-family: Calibri, Arial, sans-serif;
-            color: black;
+            font-weight: 600;
+            color: #2c3e50;
         }
         p, ul {
-            font-size: 1.2em;
+            font-size: 1.1em;
             margin-bottom: 20px;
-            color: black;
-            line-height: 1.8;
+            line-height: 1.7;
         }
         ul {
-            list-style: none;
-            padding: 0;
+            list-style-type: square;
+            padding-left: 20px;
         }
         ul li {
             margin-bottom: 10px;
         }
         ul li strong {
-            color: black;
+            color: #2c3e50;
         }
-        img {
-            max-width: 90%;
-            height: auto;
+        .image-container {
+            text-align: center;
             margin-bottom: 30px;
-            animation: flashLights 2s infinite alternate, bounceIn 1s ease-out;
         }
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-            }
-            to {
-                opacity: 1;
-            }
-        }
-        @keyframes bounceIn {
-            from {
-                transform: scale(0.8);
-                opacity: 0;
-            }
-            to {
-                transform: scale(1);
-                opacity: 1;
-            }
-        }
-        @keyframes flashLights {
-            0% {
-                filter: drop-shadow(0 0 10px #ff0000);
-            }
-            50% {
-                filter: drop-shadow(0 0 20px #00ff00);
-            }
-            100% {
-                filter: drop-shadow(0 0 10px #0000ff);
-            }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
         .references {
-            margin-top: 60px;
+            margin-top: 40px;
             font-size: 0.9em;
-            color: #777;
+            color: #555;
+            border-top: 1px solid #ddd;
+            padding-top: 20px;
+        }
+        a {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
     <div class="content">
-        <!-- Centered Image5 with Advanced Effects -->
-        <div style="text-align: center;">
+        <!-- Centered Image5 Added with Academic Style -->
+        <div class="image-container">
             <img src="./images/image5.gif" alt="Digital Interface Concept">
         </div>
 
         <h2>Welcome to My Course Website</h2>
 
-        <p>This website is a part of the course project and provides links to key topics in Human-Computer Interaction (HCI). Below you will find pages dedicated to:</p>
+        <p>This website is part of a course project focusing on Human-Computer Interaction (HCI). The content is designed to provide a comprehensive overview of key concepts and emerging technologies in the field of HCI.</p>
+
+        <p>Below, you will find links to sections dedicated to:</p>
 
         <ul>
-            <li><strong>Design Principles for HCI</strong>: Learn about the fundamental design principles that guide user interface development in HCI.</li>
-            <li><strong>Specialized Input Devices</strong>: Explore the different types of input devices used in various applications.</li>
-            <li><strong>Specialized Output Devices</strong>: Understand the technologies behind output devices and their applications.</li>
-            <li><strong>Emerging Interface Concepts and Technologies</strong>: Stay updated on the latest trends and technologies in user interfaces.</li>
+            <li><strong>Design Principles for HCI</strong>: An exploration of the foundational design principles that guide user interface development in HCI.</li>
+            <li><strong>Specialized Input Devices</strong>: A detailed look at various input devices utilized in HCI and their specific applications.</li>
+            <li><strong>Specialized Output Devices</strong>: An examination of the technologies behind output devices and their relevance in different contexts.</li>
+            <li><strong>Emerging Interface Concepts and Technologies</strong>: A discussion on the latest trends and future directions in user interface technology.</li>
         </ul>
 
-        <p>Click on the links in the navigation menu to explore these topics in more detail.</p>
+        <p>Please use the navigation menu to explore these topics in further detail.</p>
 
         <div class="references">
             <p><strong>Reference:</strong> Premium vector. (2022, May 4). Freepik. <a href="https://www.freepik.com/premium-vector/abstract-technology-futuristic-concept-digital-human-body-digital-interface_26497113.htm" target="_blank">https://www.freepik.com/premium-vector/abstract-technology-futuristic-concept-digital-human-body-digital-interface_26497113.htm</a></p>
