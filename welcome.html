@@ -4,18 +4,103 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles.css">
     <title>Welcome to My Course Website</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #f0f0f0, #ffffff);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .content {
+            max-width: 800px;
+            margin: auto;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1s ease-out;
+        }
+        h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #333;
+            font-family: 'Georgia', serif;
+        }
+        p, ul {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            color: #555;
+            line-height: 1.8;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        ul li strong {
+            color: #007BFF;
+        }
+        img {
+            max-width: 90%;
+            height: auto;
+            margin-bottom: 20px;
+            animation: zoomIn 1s ease-out;
+        }
+        .references {
+            margin-top: 30px;
+            font-size: 0.9em;
+            color: #777;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        @keyframes zoomIn {
+            from {
+                transform: scale(0.8);
+                opacity: 0;
+            }
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+    </style>
 </head>
 <body>
     <div class="content">
+        <!-- Centered Image5 Added at the Top -->
+        <div style="text-align: center;">
+            <img src="./images/image5.gif" alt="Digital Interface Concept">
+        </div>
+
         <h2>Welcome to My Course Website</h2>
+
         <p>This website is a part of the course project and provides links to key topics in Human-Computer Interaction (HCI). Below you will find pages dedicated to:</p>
+
         <ul>
             <li><strong>Design Principles for HCI</strong>: Learn about the fundamental design principles that guide user interface development in HCI.</li>
             <li><strong>Specialized Input Devices</strong>: Explore the different types of input devices used in various applications.</li>
             <li><strong>Specialized Output Devices</strong>: Understand the technologies behind output devices and their applications.</li>
             <li><strong>Emerging Interface Concepts and Technologies</strong>: Stay updated on the latest trends and technologies in user interfaces.</li>
         </ul>
+
         <p>Click on the links in the navigation menu to explore these topics in more detail.</p>
+
+        <div class="references">
+            <p><strong>Reference:</strong> Premium vector. (2022, May 4). Freepik. <a href="https://www.freepik.com/premium-vector/abstract-technology-futuristic-concept-digital-human-body-digital-interface_26497113.htm" target="_blank">https://www.freepik.com/premium-vector/abstract-technology-futuristic-concept-digital-human-body-digital-interface_26497113.htm</a></p>
+        </div>
     </div>
 </body>
 </html>
